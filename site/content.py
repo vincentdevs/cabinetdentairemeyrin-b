@@ -287,7 +287,7 @@ CONTACT_FAQ = [
 
 # ------------------------------------------------------------------ seo
 META = dict(
-    home=("Dentiste à Meyrin, près de Genève | Cabinet Dentaire", "Cabinet dentaire à Meyrin, Place de la Diversité 1 : contrôle, hygiène, caries, implants et urgences par une seule équipe. Rendez-vous au 022 320 19 19."),
+    home=("Cabinet dentaire à Meyrin et à Nyon | Dentiste", "Deux cabinets dentaires, une seule équipe : contrôle, hygiène, caries, implants et urgences. Nous examinons et nous expliquons, vous décidez. 022 320 19 19."),
     soins=("Soins dentaires à Meyrin | Du contrôle à l’implant", "Contrôle, détartrage, carie, traitement de racine, extraction, couronne, implant et blanchiment, pratiqués au cabinet de Meyrin par une seule équipe."),
     equipe=("Médecins-dentistes et hygiéniste à Meyrin | L’équipe", "Deux médecins-dentistes, un chirurgien oral, une hygiéniste dentaire et deux assistantes à Meyrin. Chaque profil dit ce que la personne pratique."),
     visite=("Premier rendez-vous chez le dentiste | Déroulement", "Le déroulement d’un premier rendez-vous chez le dentiste à Meyrin : arrivée, documents, examen, radiographies, explication, options et devis."),
@@ -353,6 +353,6 @@ PRACTICAL = dict(
 )
 META["blog"] = ("Comprendre les soins dentaires | Le blog du cabinet", "Prévention, dents de sagesse, blanchiment, soins des enfants : ce que nous expliquons au fauteuil, écrit pour être lu chez vous. Sans promesse de résultat.")
 META["cabinets"] = ("Cabinets dentaires à Meyrin et à Nyon | Nos adresses", "Deux cabinets dentaires, une seule équipe. Meyrin, Place de la Diversité 1, et Nyon. Adresse, horaires, accès et prise de rendez-vous pour chaque cabinet.")
-META["meyrin"] = ("Cabinet dentaire à Meyrin, Place de la Diversité 1", "Le cabinet dentaire de Meyrin : adresse, horaires, accès en tram 18 et en bus, parking des Sports, équipe et rendez-vous. 1er étage, sans marche.")
-META["nyon"] = ("Cabinet dentaire à Nyon | Informations à venir", "Le second cabinet dentaire du groupe, à Nyon. Les informations pratiques seront publiées dès que le cabinet les aura confirmées. Rendez-vous au 022 320 19 19.")
+META["meyrin"] = ("Dentiste à Meyrin | Cabinet dentaire et urgences", "Dentiste à Meyrin, Place de la Diversité 1 : horaires, accès en tram 18 et en bus, parking des Sports, équipe et rendez-vous. 1er étage, sans marche.")
+META["nyon"] = ("Dentiste à Nyon | Cabinet dentaire, infos à venir", "Dentiste à Nyon, le second cabinet du groupe. Les informations pratiques seront publiées dès que le cabinet les aura confirmées. Rendez-vous au 022 320 19 19.")
 META["formulaire"] = ("Formulaire patient en ligne | Cabinet Dentaire Meyrin", "Renseignez votre identité, votre assurance et vos coordonnées avant le premier rendez-vous. Facultatif, et conservé sur votre appareil jusqu’à l’envoi.")

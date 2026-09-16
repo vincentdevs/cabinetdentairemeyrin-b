@@ -940,8 +940,14 @@ body.search-open .search-btn { opacity: .5; }
   .thc { scroll-snap-align: start; }
 }
 
-/* --- bigger, more visual hero headline and lead --- */
-.hero-full .hero-head h1 { font-size: clamp(46px, 5.8vw, 79px); }
+/* --- bigger, more visual hero headline and lead ---
+   Scoped above 700px on purpose. Unscoped, the 46px floor also applied to a
+   390px phone, where the headline column is 350px wide, so a six-word title
+   broke onto three and four lines. Below 700px the responsive rule above
+   (clamp(32px, 3.9vw, 52px)) takes over again. */
+@media (min-width: 701px) {
+  .hero-full .hero-head h1 { font-size: clamp(46px, 5.8vw, 79px); }
+}
 .hero-full .lead { font-size: clamp(19px, 1.7vw, 23px); }
 
 /* Mobile blowout guard. Grid and flex children default to min-width: auto, so a single

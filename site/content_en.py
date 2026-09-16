@@ -189,7 +189,7 @@ CONTACT_FAQ = [
 ]
 
 META = dict(
-    home=("English-Speaking Dentist in Meyrin, near Geneva", "Dental practice in Meyrin, next to Geneva. Check-ups, hygiene, cavities, implants and emergencies by one team. Book online or call 022 320 19 19."),
+    home=("Dental Practice in Meyrin and Nyon | Our Approach", "Two dental practices, one English-speaking team: check-ups, hygiene, cavities, implants and emergencies. We examine and explain, you decide. 022 320 19 19."),
     soins=("Dental Treatments in Meyrin | Check-up to Implant", "Check-up, scaling, cavity, root canal, extraction, crown, implant, whitening and dental emergency, all provided at the Meyrin practice by a single team."),
     equipe=("Dentists and Hygienist in Meyrin | Our Team", "Two dentists, an oral surgeon, a dental hygienist and two assistants in Meyrin. Each profile says what the person provides and in which languages they work."),
     visite=("First Dental Appointment in Meyrin | What Happens", "What happens at a first dental appointment in Meyrin: arrival, documents to bring, examination, X-rays, explanation, options and the written estimate."),
@@ -197,8 +197,8 @@ META = dict(
     urgences=("Dental Emergency in Meyrin | What to Do and Who to Call", "Pain, broken tooth or swelling in Meyrin: call 022 320 19 19, Monday to Friday, 8am to 6.30pm. What to do while you wait for your appointment."),
     contact=("Contact the Meyrin Dental Practice | Access", "Place de la Diversité 1, 1217 Meyrin, first floor with no steps. Tram 18, buses 56, 57, 68, 71 and A3, Meyrin, Hôpital de la Tour stop. Phone 022 320 19 19."),
     cabinets=("Dental Practices in Meyrin and Nyon | Addresses", "Two dental practices, one team. Meyrin, Place de la Diversité 1, and Nyon. Address, opening hours, access and booking for each of them."),
-    meyrin=("Dental Practice in Meyrin, Place de la Diversité 1", "The Meyrin dental practice: address, opening hours, access by tram 18 and by bus, Parking des Sports, the team and booking. First floor, no steps."),
-    nyon=("Dental Practice in Nyon | Details to Come", "The group's second dental practice, in Nyon. Practical details will be published as soon as the practice confirms them. Book online or call 022 320 19 19."),
+    meyrin=("English-Speaking Dentist in Meyrin | Access, Hours", "English-speaking dentist in Meyrin, Place de la Diversité 1: opening hours, access by tram 18 and by bus, Parking des Sports, the team and booking."),
+    nyon=("English-Speaking Dentist in Nyon | Details to Come", "English-speaking dentist in Nyon, the group's second practice. Practical details will be published as soon as the practice confirms them. Call 022 320 19 19."),
     blog=("Understanding Dental Care | The Practice Blog", "Prevention, wisdom teeth, whitening, children's care: what we explain at the chair, written to be read at home. No jargon and no promise of a result."),
     formulaire=("Online Patient Form | Meyrin Dental Practice", "Fill in your identity, your insurance and your contact details before the first appointment. Optional, and kept on your device until you send it."),
 )
