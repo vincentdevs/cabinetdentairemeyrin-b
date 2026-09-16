@@ -756,7 +756,7 @@ body.search-open .search-btn { opacity: .5; }
 }
 
 .hero-full { background: var(--cream); }
-.hero-art picture { border-radius: var(--r-card); border: 3px solid var(--cobalt); }
+.hero-art picture { border-radius: 0; }
 .sub { background: var(--paper); border-radius: 18px; box-shadow: 0 18px 44px rgba(22, 55, 78, .14); }
 .sub li a { color: var(--navy); border-radius: 12px; }
 .sub li a:hover { background: var(--turq-tint); }
@@ -985,3 +985,19 @@ body.search-open .search-btn { opacity: .5; }
   .video-play { place-self: center; }
   .video-txt { grid-area: 2 / 1; align-self: start; max-width: none; background: var(--navy); padding: 20px; }
 }
+
+/* --- square photo corners, version B ---
+   The blue frame on the hero photo is gone and every photograph now sits on a
+   sharp corner. Circular portraits are left alone, because a circle is not a
+   rounded corner: .disc and .thc-pic keep their 50% radius. Cards, buttons and
+   panels also keep theirs, so only the images change. */
+.hero-art picture,
+.phero-pic, .phero-banner-pic,
+.loc-pic, .fam-pic, .visite-pic, .philo-pic,
+.gallery picture, .post picture,
+.hfam-visual picture, .hfam-visual > img,
+.team-pic .disc,
+.hero-band, .hero-band picture,
+.hero-people-pic,
+.video-slot,
+.map, .map iframe { border-radius: 0; }
