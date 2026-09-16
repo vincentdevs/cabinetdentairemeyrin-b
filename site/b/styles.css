@@ -855,24 +855,13 @@ body.search-open .search-btn { opacity: .5; }
 
 .foot-logo { width: 168px; height: auto; margin-bottom: 22px; }
 
-/* --- decorative accents, version B only --- */
-.hero-full { position: relative; }
-.hero-full::after {
-  content: ""; position: absolute; top: 32px; right: 32px; width: 88px; height: 88px;
-  background-image: radial-gradient(var(--turq-l) 2.5px, transparent 3px); background-size: 16px 16px;
-  opacity: .55; z-index: 0; pointer-events: none;
-}
+/* The two dot-grid accents that used to sit here, turquoise in the hero and
+   pink in the about section, were removed: they read as filler rather than as
+   part of the identity. The stacking contexts stay, because .hero-full::before
+   still paints the cream band behind the hero. */
 .hero-full .wrap { position: relative; z-index: 1; }
-.about { position: relative; overflow: hidden; }
-.about::before {
-  content: ""; position: absolute; bottom: 12px; left: 12px; width: 72px; height: 72px;
-  background-image: radial-gradient(var(--pink) 2.5px, transparent 3px); background-size: 16px 16px;
-  opacity: .4; z-index: 0; pointer-events: none;
-}
+.about { position: relative; }
 .about-in { position: relative; z-index: 1; }
-@media (max-width: 900px) {
-  .hero-full::after, .about::before { display: none; }
-}
 
 /* --- hero photo badge, version B only (placeholder real photo + branded outline accent) --- */
 .hero-art { position: relative; }
