@@ -60,7 +60,7 @@ dd { margin: 0; }
 .btn-big { min-height: 60px; padding: 14px 32px; font-size: 17px; }
 .btn-onDark, .cont .btn-onDark { background: var(--pink); color: var(--navy); border-color: var(--pink); }
 .btn-onDark:hover, .cont .btn-onDark:hover { background: var(--paper); border-color: #fff; color: var(--navy); }
-.acts { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 32px; align-items: center; }
+.acts { display: flex; flex-wrap: wrap; gap: 16px; margin-top: 32px; align-items: center; }
 .acts-note { flex-basis: 100%; color: var(--grey); font-size: 16px; margin: 4px 0 0; }
 
 /* header */
@@ -931,7 +931,7 @@ body.search-open .search-btn { opacity: .5; }
    broke onto three and four lines. Below 700px the responsive rule above
    (clamp(32px, 3.9vw, 52px)) takes over again. */
 @media (min-width: 701px) {
-  .hero-full .hero-head h1 { font-size: clamp(39px, 4.9vw, 67px); }
+  .hero-full .hero-head h1 { font-size: clamp(43px, 5.39vw, 74px); }
 }
 .hero-full .lead { font-size: clamp(19px, 1.7vw, 23px); }
 
