@@ -100,8 +100,7 @@ dd { margin: 0; }
 .hero-row .acts { margin-top: 6px; }
 .hero-band { margin-top: 48px; aspect-ratio: 21 / 9; overflow: hidden; border-radius: var(--r-card); }
 .hero-band picture, .hero-band img { width: 100%; height: 100%; object-fit: cover; object-position: 50% 45%; }
-.hero-band img { transform: scale(1.05); transition: transform 1.6s var(--ease); }
-.js .hero-band.in img { transform: none; }
+.hero-band img { transform: none; }
 
 /* bands */
 section { padding: var(--band) 0; }
@@ -367,16 +366,13 @@ section { padding: var(--band) 0; }
 .form .btn { margin-top: 28px; }
 .form-ok { margin-top: 16px; color: var(--cobalt); font-weight: 700; }
 
-/* motion */
-.js .r { opacity: 0; transform: translateY(16px); transition: opacity .7s var(--ease), transform .7s var(--ease); }
-.js .r.in { opacity: 1; transform: none; }
-.js .mask picture { clip-path: inset(0 0 100% 0 round var(--r-card)); transition: clip-path 1s var(--ease); }
-.js .mask.in picture { clip-path: inset(0 0 0 0 round var(--r-card)); }
+/* motion
+   The scroll reveal was removed: images and blocks now paint in their final
+   state on load. The fade-up on .r and the clip-path wipe on .mask picture
+   are gone, so nothing moves as the page scrolls. */
 @media (prefers-reduced-motion: reduce) {
   html { scroll-behavior: auto; }
   *, *::before, *::after { transition-duration: .01ms !important; animation: none !important; }
-  .js .r, .js .mask picture { opacity: 1; transform: none; clip-path: none; }
-  .hero-band img { transform: none !important; }
 }
 
 /* responsive */
@@ -663,7 +659,7 @@ body.search-open .search-btn { opacity: .5; }
 
 /* --- round 4: full-screen hero, dropdowns, about, cabinets, treatment sections, blog --- */
 .hero-full { padding: 0; }
-.hero-full .hero-in { min-height: calc(100vh - 84px); grid-template-columns: 7fr 5fr; gap: 56px; align-items: center; padding-block: 48px 56px; }
+.hero-full .hero-in { min-height: calc(100vh - 84px); grid-template-columns: 7fr 5fr; gap: 96px; align-items: center; padding-block: 48px 56px; }
 /* the hero headline gets a measure wide enough to sit on two lines at 1440, and a cap so it never outgrows its column */
 .hero-full .hero-head h1 { max-width: 20ch; font-size: clamp(30px, 4.6vw, 64px); text-wrap: balance; }
 .hero-full .lead { margin-top: 24px; }
@@ -935,7 +931,7 @@ body.search-open .search-btn { opacity: .5; }
    broke onto three and four lines. Below 700px the responsive rule above
    (clamp(32px, 3.9vw, 52px)) takes over again. */
 @media (min-width: 701px) {
-  .hero-full .hero-head h1 { font-size: clamp(46px, 5.8vw, 79px); }
+  .hero-full .hero-head h1 { font-size: clamp(39px, 4.9vw, 67px); }
 }
 .hero-full .lead { font-size: clamp(19px, 1.7vw, 23px); }
 

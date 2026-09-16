@@ -59,30 +59,10 @@
     if ((e.metaKey || e.ctrlKey) && e.key === 'k') { e.preventDefault(); openSearch(); }
   });
 
-  // reveals
-  var targets = [].slice.call(document.querySelectorAll('.mask, .r, .hero-pic, .hero-band, .loc, .quick-list li, .trust-item, .soin-row'));
-  if (reduce || !('IntersectionObserver' in window)) {
-    targets.forEach(function (el) { el.classList.add('in'); });
-  } else {
-    var io = new IntersectionObserver(function (entries) {
-      entries.forEach(function (en) { if (en.isIntersecting) { en.target.classList.add('in'); io.unobserve(en.target); } });
-    }, { rootMargin: '0px 0px -8% 0px', threshold: 0.1 });
-    targets.forEach(function (el) { el.classList.add('r'); io.observe(el); });
-    // Safety net: a reveal that never fires leaves a block invisible, which is
-    // far worse than a missed animation. Anything already inside the viewport
-    // is shown on the next scroll tick, whatever the observer did.
-    var sweep = function () {
-      var vh = window.innerHeight;
-      targets.forEach(function (el) {
-        if (el.classList.contains('in')) return;
-        var box = el.getBoundingClientRect();
-        if (box.top < vh && box.bottom > 0) { el.classList.add('in'); io.unobserve(el); }
-      });
-    };
-    window.addEventListener('scroll', sweep, { passive: true });
-    window.addEventListener('resize', sweep, { passive: true });
-    window.addEventListener('load', sweep);
-  }
+  // Everything paints in its final state on load. There is no scroll reveal:
+  // no fade-up on blocks and no wipe on images, so nothing moves as you scroll.
+  [].slice.call(document.querySelectorAll('.mask, .hero-pic, .hero-band, .loc, .quick-list li, .trust-item, .soin-row'))
+    .forEach(function (el) { el.classList.add('in'); });
 
   // dropdown menus: click or keyboard on the small button, hover handled in CSS
   document.querySelectorAll('.has-sub').forEach(function (li) {
