@@ -1,0 +1,361 @@
+CABINET DENTAIRE MEYRIN
+INFORMATIONS QUI MANQUENT ENCORE POUR COMPLÉTER LE SITE
+================================================================================
+
+Le site est en ligne et complet dans sa structure, mais une partie des
+informations n'a jamais été fournie par le cabinet. Partout où c'est le cas, le
+texte le dit franchement au lecteur et porte un marqueur entre crochets, par
+exemple [ADRESSE À CONFIRMER], plutôt qu'une valeur inventée. Aucun chiffre,
+aucune adresse et aucun diplôme n'a été supposé.
+
+Ce document liste ce qui manque, dit où cela apparaît, et précise la forme
+attendue de la réponse. Chaque réponse remplace directement un marqueur du
+site. La liste complète des marqueurs, avec les pages concernées, figure en
+annexe à la fin du document.
+
+Priorité 1 signifie qu'un visiteur rencontre le manque dès la première visite,
+priorité 2 qu'il le rencontre en creusant, priorité 3 que cela peut attendre
+une deuxième passe.
+
+
+--------------------------------------------------------------------------------
+1. PRIX ET FACTURATION                                              priorité 1
+--------------------------------------------------------------------------------
+
+Aujourd'hui le site ne contient aucun prix, aucun tarif et aucun ordre de
+grandeur. C'est le manque le plus visible, parce que la question du coût arrive
+tôt chez un patient qui compare deux cabinets, et parce que les 19 fiches de
+soin annoncent un devis sans jamais dire à partir de quoi il est calculé.
+
+Ce qu'il faut fournir :
+
+  - La valeur du point tarifaire appliquée par le cabinet, pour les soins au
+    tarif dentaire suisse, et la date depuis laquelle elle s'applique.
+  - Le prix d'un premier contrôle et celui d'un détartrage, soit un montant
+    ferme, soit une fourchette honnête du type « entre X et Y francs selon la
+    quantité de tartre ».
+  - Une fourchette pour les traitements où les patients la demandent le plus
+    souvent : couronne, implant, traitement de racine, blanchiment, facettes.
+  - Le seuil à partir duquel un devis écrit est remis systématiquement.
+  - Les moyens de paiement acceptés, carte, facture, et si un paiement en
+    plusieurs fois est possible, avec ses conditions.
+  - Le délai de paiement des factures, et ce qui se passe en cas de retard.
+  - Ce qui est facturé lorsqu'un rendez-vous est annulé tardivement ou manqué,
+    avec le délai d'annulation sans frais.
+
+Où cela apparaît : le bloc « Devis et financement » des 19 fiches de soin porte
+[MODALITÉS DE PAIEMENT ET DE FACTURATION À CONFIRMER]. La page Première visite
+et la page Contact gagneraient aussi une ligne sur le sujet.
+
+
+--------------------------------------------------------------------------------
+2. LE CABINET DE NYON, EN ENTIER                                    priorité 1
+--------------------------------------------------------------------------------
+
+Nyon existe dans toute la navigation, a sa page, apparaît sur l'accueil et dans
+le pied de page, mais aucune information concrète n'a été fournie. La page
+affiche aujourd'hui une photo d'illustration et sept marqueurs.
+
+Ce qu'il faut fournir :
+
+  - L'adresse postale complète, rue, numéro et code postal.
+  - L'étage, et si l'accès se fait sans marche ou avec ascenseur.
+  - Les horaires d'ouverture, jour par jour, y compris la pause de midi si elle
+    existe et la fermeture hebdomadaire s'il y en a une.
+  - Le numéro de téléphone de Nyon. Le site affiche aujourd'hui le
+    022 320 19 19 sur les deux cabinets, ce qui est peut-être exact, mais n'a
+    pas été confirmé.
+  - L'adresse de courriel de Nyon, même remarque, le site affiche celle de
+    Meyrin sur les deux pages.
+  - Les transports publics, lignes et nom de l'arrêt.
+  - Le stationnement, parking le plus proche et durée autorisée.
+  - Qui consulte à Nyon, et quels soins y sont pratiqués sur place.
+  - Des photos du cabinet de Nyon, puisque la page utilise une photo
+    d'illustration explicitement annoncée comme telle.
+
+Où cela apparaît : /cabinets/nyon/, /cabinets/, /contact/ et l'accueil.
+
+
+--------------------------------------------------------------------------------
+3. LE CABINET DE MEYRIN, CE QUI RESTE OUVERT                        priorité 2
+--------------------------------------------------------------------------------
+
+Meyrin est renseigné : Place de la Diversité 1, 1217 Meyrin, premier étage sans
+marche à franchir, du lundi au vendredi de 8h à 18h30, tram 18 et bus 56, 57,
+68, 71 et A3, arrêt Meyrin Hôpital de la Tour. Deux points restent ouverts.
+
+  - Le protocole d'hygiène et de stérilisation, dans le détail que le cabinet
+    accepte de publier. Le texte dit aujourd'hui que les instruments passent
+    par une salle dédiée entre deux patients, et s'arrête là.
+  - La liste des équipements, notamment le type de radiographie disponible sur
+    place, et si la radiographie panoramique ou la 3D est faite au cabinet ou
+    ailleurs.
+  - Confirmation que l'adresse de courriel publiée,
+    info.cabinetmeyrin@gmail.com, est bien celle que le cabinet veut afficher,
+    ou s'il existe une adresse au nom de domaine du cabinet.
+
+Où cela apparaît : /cabinets/meyrin/, avec [PROTOCOLE D'HYGIÈNE À CONFIRMER] et
+[ÉQUIPEMENT À CONFIRMER].
+
+
+--------------------------------------------------------------------------------
+4. L'ÉQUIPE, TITRES ET DIPLÔMES                                     priorité 1
+--------------------------------------------------------------------------------
+
+Six personnes ont leur page. Ce qui est publié aujourd'hui vient de la
+présentation officielle du cabinet et s'arrête tôt pour quatre d'entre elles.
+
+Ce qui est déjà su :
+  - Victor Palmen, médecin-dentiste, diplômé de la Faculté de médecine de
+    l'Université de Genève, exerce depuis 2020 comme médecin-dentiste assistant
+    à la Clinique universitaire. Parle français, allemand et anglais.
+  - Edouard Di Donna, chirurgien oral, diplômé de la Faculté de médecine de
+    l'Université de Genève, pratique orientée vers la chirurgie orale et
+    l'implantologie. Parle français, italien et anglais.
+  - Cilien Prieu, médecin-dentiste, diplômé de la Faculté de médecine de
+    Valence. Parle français, anglais et espagnol.
+  - Juliana, hygiéniste dentaire, diplôme obtenu à l'École supérieure
+    d'hygiénistes dentaires de Genève en 2016. Parle français, portugais et
+    espagnol.
+
+Ce qu'il faut fournir, pour toute l'équipe :
+
+  - Le nom de famille de Juliana, de Zainne et de Luana. Trois membres de
+    l'équipe n'apparaissent aujourd'hui que par leur prénom.
+  - Le titre exact tel qu'il doit être écrit, par exemple médecin-dentiste
+    diplômé, docteur en médecine dentaire, ou spécialiste reconnu SSO, puisque
+    ces mentions sont réglementées et ne s'inventent pas.
+  - L'année d'obtention du diplôme principal de chaque médecin-dentiste, celle
+    de Juliana étant la seule connue.
+  - Les formations postgrades, titres de spécialiste, certificats et masters,
+    avec l'institution et l'année.
+  - Le numéro au registre des professions médicales, si le cabinet souhaite
+    l'afficher.
+  - Les sociétés professionnelles dont chacun est membre, par exemple SSO,
+    SSOS, ou une société d'implantologie.
+  - Pour Zainne et Luana, une courte présentation et les langues parlées, les
+    deux pages portant aujourd'hui [BIOGRAPHIE À CONFIRMER] et
+    [LANGUES À CONFIRMER].
+  - Pour chaque personne, si elle consulte aussi à Nyon, puisque chaque fiche
+    porte la ligne « Nyon : [À CONFIRMER] ».
+
+Où cela apparaît : les six pages sous /equipe/ et la page /equipe/.
+
+
+--------------------------------------------------------------------------------
+5. URGENCES                                                         priorité 1
+--------------------------------------------------------------------------------
+
+La page Urgences renvoie au répondeur du cabinet et au service de garde de la
+SSO Genève, mais sans numéro.
+
+  - Le numéro du service de garde à afficher, et ses heures de validité.
+  - Ce que dit exactement le répondeur en dehors des heures d'ouverture.
+  - Si une plage est réservée chaque jour aux urgences, et jusqu'à quelle heure
+    il faut appeler pour être reçu le jour même.
+
+Où cela apparaît : /urgences/, avec [NUMÉRO DU SERVICE DE GARDE À CONFIRMER].
+
+
+--------------------------------------------------------------------------------
+6. MENTIONS LÉGALES                                                 priorité 2
+--------------------------------------------------------------------------------
+
+La page existe et annonce elle-même qu'elle reste à compléter.
+
+  - La raison sociale exacte et le numéro IDE de l'entité qui exploite le
+    cabinet.
+  - Le nom de la personne responsable de la publication du site.
+  - L'hébergeur du site, une fois le domaine définitif choisi.
+  - La personne à contacter pour une question de protection des données, si le
+    cabinet souhaite en désigner une.
+
+Où cela apparaît : /mentions-legales/.
+
+
+--------------------------------------------------------------------------------
+7. SOINS, DURÉES ET PRISE EN CHARGE                                 priorité 2
+--------------------------------------------------------------------------------
+
+Les 19 fiches de soin sont écrites et complètes sur le fond. Trois informations
+pratiques manquent sur chacune.
+
+  - La durée habituelle du rendez-vous pour chaque soin, en minutes, même
+    approximative. Aujourd'hui chaque fiche affiche [DURÉE À CONFIRMER].
+  - Les soins qui sont pratiqués à Nyon en plus de Meyrin, puisque chaque fiche
+    indique aujourd'hui que le soin est pratiqué à Meyrin et que Nyon reste à
+    confirmer.
+  - L'orthodontie : le cabinet la pratique-t-il, la délègue-t-il, ou ne la
+    propose-t-il pas. La page /soins/ le signale au lecteur avec
+    [ORTHODONTIE À CONFIRMER].
+
+S'ajoute une question de contenu plutôt que d'information : chaque fiche
+réserve un emplacement pour une courte vidéo explicative, annoncée au lecteur
+comme à venir. Il faut décider si ces vidéos seront tournées, et lesquelles en
+premier, sinon l'emplacement sera retiré.
+
+
+--------------------------------------------------------------------------------
+8. IMAGES ET PLAN                                                   priorité 2
+--------------------------------------------------------------------------------
+
+  - Des photos du cabinet de Nyon, aujourd'hui remplacées par une photo
+    d'illustration signalée comme telle au lecteur.
+  - Des portraits de Zainne et de Luana au même format que les autres, si ceux
+    en place doivent être remplacés.
+  - Le plan affiché sur la page de Meyrin pointe sur Place de la Diversité 1.
+    Le plan de Nyon ne pourra être posé qu'une fois l'adresse connue.
+  - La fiche Google du cabinet, si elle existe, afin que le lien d'itinéraire
+    ouvre la fiche plutôt qu'une recherche d'adresse.
+
+
+--------------------------------------------------------------------------------
+9. DÉCISIONS À PRENDRE, SANS MARQUEUR SUR LE SITE                   priorité 3
+--------------------------------------------------------------------------------
+
+Ces points ne bloquent aucun texte, mais ils devront être tranchés avant une
+mise en ligne sur le vrai nom de domaine.
+
+  - Le nom de domaine définitif. Le site tourne aujourd'hui sur une adresse
+    GitHub Pages, et les adresses canoniques pointent déjà vers un domaine qui
+    doit être confirmé.
+  - La prise de rendez-vous en ligne passe par rdv.dentagest.ch. Confirmer que
+    c'est bien l'outil retenu, et qu'il couvre les deux cabinets.
+  - Le formulaire patient envoie aujourd'hui son récapitulatif par courriel
+    depuis le poste du patient. Décider si cela convient ou s'il faut un envoi
+    sécurisé, sachant qu'il s'agit de données de santé.
+  - La langue de travail du site : français et anglais sont en place. Décider
+    si l'allemand et l'italien sont souhaités, puisque l'équipe les parle.
+
+
+================================================================================
+ANNEXE : TOUS LES MARQUEURS PRÉSENTS DANS LE SITE
+================================================================================
+
+Chaque entrée donne le marqueur, le nombre de pages qui le portent, puis ces
+pages. Répondre à une question du document ci-dessus fait disparaître le
+marqueur correspondant partout où il apparaît.
+
+[À CONFIRMER]
+    26 page(s) :
+        /equipe/cilien-prieu/ /equipe/edouard-di-donna/ /equipe/juliana/
+        /equipe/luana/ /equipe/victor-palmen/ /equipe/zainne/
+        /mentions-legales/ /soins/blanchiment-dentaire-meyrin/
+        /soins/carie-dentaire-meyrin/ /soins/chirurgie-orale-meyrin/
+        /soins/controle-dentaire-meyrin/ /soins/couronne-dentaire-meyrin/
+        /soins/dent-manquante/ /soins/dentiste-enfant-meyrin/
+        /soins/dents-sagesse-meyrin/ /soins/detartrage-meyrin/
+        /soins/esthetique-dentaire-meyrin/ /soins/extraction-dentaire-meyrin/
+        /soins/facettes-dentaires-meyrin/ /soins/hygieniste-dentaire-meyrin/
+        /soins/implant-dentaire-meyrin/ /soins/implant-ou-bridge/
+        /soins/remplacer-plusieurs-dents/ /soins/soins-gencives-meyrin/
+        /soins/traitement-racine-meyrin/ /soins/urgence-dentaire-meyrin/
+
+[DURÉE À CONFIRMER]
+    19 page(s) :
+        /soins/blanchiment-dentaire-meyrin/ /soins/carie-dentaire-meyrin/
+        /soins/chirurgie-orale-meyrin/ /soins/controle-dentaire-meyrin/
+        /soins/couronne-dentaire-meyrin/ /soins/dent-manquante/
+        /soins/dentiste-enfant-meyrin/ /soins/dents-sagesse-meyrin/
+        /soins/detartrage-meyrin/ /soins/esthetique-dentaire-meyrin/
+        /soins/extraction-dentaire-meyrin/ /soins/facettes-dentaires-meyrin/
+        /soins/hygieniste-dentaire-meyrin/ /soins/implant-dentaire-meyrin/
+        /soins/implant-ou-bridge/ /soins/remplacer-plusieurs-dents/
+        /soins/soins-gencives-meyrin/ /soins/traitement-racine-meyrin/
+        /soins/urgence-dentaire-meyrin/
+
+[MODALITÉS DE PAIEMENT ET DE FACTURATION À CONFIRMER]
+    19 page(s) :
+        /soins/blanchiment-dentaire-meyrin/ /soins/carie-dentaire-meyrin/
+        /soins/chirurgie-orale-meyrin/ /soins/controle-dentaire-meyrin/
+        /soins/couronne-dentaire-meyrin/ /soins/dent-manquante/
+        /soins/dentiste-enfant-meyrin/ /soins/dents-sagesse-meyrin/
+        /soins/detartrage-meyrin/ /soins/esthetique-dentaire-meyrin/
+        /soins/extraction-dentaire-meyrin/ /soins/facettes-dentaires-meyrin/
+        /soins/hygieniste-dentaire-meyrin/ /soins/implant-dentaire-meyrin/
+        /soins/implant-ou-bridge/ /soins/remplacer-plusieurs-dents/
+        /soins/soins-gencives-meyrin/ /soins/traitement-racine-meyrin/
+        /soins/urgence-dentaire-meyrin/
+
+[VIDÉO À CONFIRMER]
+    19 page(s) :
+        /soins/blanchiment-dentaire-meyrin/ /soins/carie-dentaire-meyrin/
+        /soins/chirurgie-orale-meyrin/ /soins/controle-dentaire-meyrin/
+        /soins/couronne-dentaire-meyrin/ /soins/dent-manquante/
+        /soins/dentiste-enfant-meyrin/ /soins/dents-sagesse-meyrin/
+        /soins/detartrage-meyrin/ /soins/esthetique-dentaire-meyrin/
+        /soins/extraction-dentaire-meyrin/ /soins/facettes-dentaires-meyrin/
+        /soins/hygieniste-dentaire-meyrin/ /soins/implant-dentaire-meyrin/
+        /soins/implant-ou-bridge/ /soins/remplacer-plusieurs-dents/
+        /soins/soins-gencives-meyrin/ /soins/traitement-racine-meyrin/
+        /soins/urgence-dentaire-meyrin/
+
+[ADRESSE À CONFIRMER]
+    4 page(s) :
+        / /cabinets/ /cabinets/nyon/ /contact/
+
+[HORAIRES À CONFIRMER]
+    4 page(s) :
+        / /cabinets/ /cabinets/nyon/ /contact/
+
+[NPA]
+    4 page(s) :
+        / /cabinets/ /cabinets/nyon/ /contact/
+
+[ARRÊT À CONFIRMER]
+    3 page(s) :
+        /cabinets/ /cabinets/nyon/ /contact/
+
+[LANGUES À CONFIRMER]
+    3 page(s) :
+        /equipe/ /equipe/luana/ /equipe/zainne/
+
+[LIGNES À CONFIRMER]
+    3 page(s) :
+        /cabinets/ /cabinets/nyon/ /contact/
+
+[ÉTAGE ET ACCÈS À CONFIRMER]
+    3 page(s) :
+        /cabinets/ /cabinets/nyon/ /contact/
+
+[BIOGRAPHIE À CONFIRMER]
+    2 page(s) :
+        /equipe/luana/ /equipe/zainne/
+
+[STATIONNEMENT À CONFIRMER]
+    2 page(s) :
+        /cabinets/ /cabinets/nyon/
+
+[HÉBERGEUR À CONFIRMER]
+    1 page(s) :
+        /mentions-legales/
+
+[NUMÉRO DU SERVICE DE GARDE À CONFIRMER]
+    1 page(s) :
+        /urgences/
+
+[ORTHODONTIE À CONFIRMER]
+    1 page(s) :
+        /soins/
+
+[PROTOCOLE D’HYGIÈNE À CONFIRMER]
+    1 page(s) :
+        /cabinets/meyrin/
+
+[RAISON SOCIALE ET NUMÉRO IDE À CONFIRMER]
+    1 page(s) :
+        /mentions-legales/
+
+[ÉQUIPE DE NYON À CONFIRMER]
+    1 page(s) :
+        /cabinets/nyon/
+
+[ÉQUIPEMENT À CONFIRMER]
+    1 page(s) :
+        /cabinets/meyrin/
+
+================================================================================
+Établi le 2026-09-16 à partir du site construit, version 6c069d9.
+Les textes correspondants se trouvent dans Doc_Contenu-Du-Site_v1.txt, dans le
+même dossier. Les réponses se saisissent dans site/content/content-source.json,
+puis le site est reconstruit, elles ne se corrigent pas dans ces deux fichiers.
