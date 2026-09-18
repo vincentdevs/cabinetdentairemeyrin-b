@@ -1045,3 +1045,30 @@ body.search-open .search-btn { opacity: .5; }
 .portraits-side { grid-template-columns: repeat(2, minmax(0, 1fr)); }
 .portraits > li, .portraits-side > li, .person, .dock > *, .dock a { min-width: 0; }
 .dock { max-width: 100%; }
+
+/* --- about section, editorial column --------------------------------------
+   C5: the lead ran five centred lines and the statement three, so both edges
+   were ragged and the eye lost the left margin on every line. The block is now
+   left aligned on the same edge as "Ce qui nous distingue" and the cards below
+   it, which is what made the section read as scattered.
+   The statement also competed with the heading at 37px against 47px, two
+   display sizes stacked with nothing between them. It becomes a pull quote,
+   smaller, on a turquoise rule, so the section reads heading, then prose, then
+   the line worth remembering. */
+.about-txt { text-align: left; }
+.about-solo .about-txt { max-width: 760px; margin-inline: 0; }
+.about-txt .lead { max-width: none; margin-inline: 0; }
+.about-txt .statement {
+  margin: 40px 0 0;
+  max-width: 34ch;
+  text-align: left;
+  font-size: clamp(20px, 2.2vw, 30px);
+  line-height: 1.3;
+  padding-left: 22px;
+  border-left: 3px solid var(--turq);
+}
+
+/* The team name box hugs its text. It spanned the full 756px text column while
+   the name itself is 275px, which is dead space and also made the layout gate
+   read the block rect and the link rect as two lines of a wrapped heading. */
+.team-txt h2 { width: fit-content; }
